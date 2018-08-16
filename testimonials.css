@@ -1,0 +1,42 @@
+/* Basic CSS styles for Add Testimonials to Any Page */
+
+.all_testimonials{clear:both;}
+.all_testimonials ul{list-style-type:none;}
+.all_testimonials ul li{
+	clear:both;
+	color:#444;
+	margin-bottom:20px;}
+.all_testimonials ul li .testimonial_pic{
+	float:left;
+	margin-right:20px;
+	max-width:200px;}
+.all_testimonials ul li .testimonial_content{
+	float:right;
+	width:calc(100% - 220px);}
+.all_testimonials .single_testimonial p{
+	color:#444;
+	font-size:30px;}
+.all_testimonials ul li .testimonial_pic img{
+	display:block;
+	height:auto;
+	max-width:100%;}
+	
+/** Clearing **/
+	
+.all_testimonials ul:after,
+.all_testimonials ul li:after {
+	  content: "";
+	  display: table;
+	  clear: both;}
+
+	.all_testimonials ul:after,
+	.all_testimonials ul li:after {
+	  visibility: hidden;
+	  display: block;
+	  font-size: 0;
+	  content: " ";
+	  clear: both;
+	  height: 0;
+  }
+	.all_testimonials ul,
+	.all_testimonials ul li{ { display: inline-block; }
